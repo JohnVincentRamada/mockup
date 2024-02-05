@@ -1,0 +1,41 @@
+@import './base.css';
+
+.navbar{
+  background-color: rgb(132, 185, 221);
+}
+.nav-item:hover {
+  color: rgb(173, 169, 165);
+}
+.card {
+  max-width: 600px;
+
+}
+.image {
+  max-width: 200px;
+  max-height: auto;
+  margin: 4px;
+}
+
+
+.image-logo {
+  max-width: 30px;
+  max-height: auto;
+  margin: 4px;
+}
+
+.login, .register, .update-profile {
+  max-width: 500px; 
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .register, .login{
+    max-width: 300px;
+  }
+  .card {
+    max-width: 300px;
+    columns: none;
+  }
+ 
+}
+
